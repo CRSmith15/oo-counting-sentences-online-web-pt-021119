@@ -18,7 +18,7 @@ class String
   end
 
   def count_sentences
-    diff_sents = self.split(/\w[?!.]/).count
+    diff_sents = self.split(/\w+[?!.]/).count
     
 
   end
