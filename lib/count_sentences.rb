@@ -18,8 +18,9 @@ class String
   end
 
   def count_sentences
-    self.split(". ! ?")
-    self.count 
+    self.split(". ! ?") = @diff_sents
+    @diff_sents.count
+    
 
   end
 end
