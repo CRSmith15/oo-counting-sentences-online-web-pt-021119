@@ -18,8 +18,8 @@ class String
   end
 
   def count_sentences
-    self.split(/[^\.!?]+[\.!?]/) = diff_sents
-    diff_sents.count
+    self.split(/[^\.!?]+[\.!?]/)
+    self.count
     
 
   end
