@@ -20,7 +20,6 @@ class String
   def count_sentences
     diff_sents = self.split(/(?<=[?.!])/) 
     diff_sents.count 
-    binding.pry
     
 
   end
